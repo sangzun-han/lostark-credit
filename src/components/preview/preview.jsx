@@ -18,6 +18,10 @@ const Preview = ({ cards }) => {
 const Previewer = styled.section`
   flex-basis: 50%;
   overflow-y: auto;
+
+  @media screen and (max-width: 540px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.h1`

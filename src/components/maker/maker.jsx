@@ -77,6 +77,10 @@ const Makers = styled.section`
   display: flex;
   flex-direction: column;
   background-color: white;
+
+  @media screen and (max-width: 540px) {
+    width: 80%;
+  }
 `;
 
 const Container = styled.div`

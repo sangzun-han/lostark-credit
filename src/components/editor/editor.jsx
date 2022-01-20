@@ -25,8 +25,12 @@ const Editor = ({ cards, addCard, updateCard, deleteCard }) => {
 const Edit = styled.section`
   flex-basis: 50%;
   border-right: 1px solid #e2e2e2;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   overflow-y: auto;
+
+  @media screen and (max-width: 540px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.h1`
